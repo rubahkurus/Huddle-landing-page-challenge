@@ -1,0 +1,14 @@
+.button {
+    padding: 12px 50px;
+    box-shadow: 10px 10px 20px rgba($color: #000000, $alpha: 0.25);
+    background-color: white;
+    color: $violet;
+    display: inline-block;
+    transition: all 250ms;
+    border-radius: 1000px;
+
+    &:hover {
+        background-color: $soft-magenta;
+        color: white;
+    }
+}
